@@ -1,6 +1,6 @@
 //first algo to reverse a string
 
-function reverse(str){
+function reverse1(str){
     let reverse = "";
 
     for(let i = 0; i < str.length; i++){
@@ -9,11 +9,11 @@ function reverse(str){
     return reverse;
 }
 
-console.log(reverse("helloo"))
+console.log(reverse1("helloo"))
 
 //second algo to reverse a string
 
-function reverse(str){
+function reverse2(str){
     let reverse = "";
 
     for(let char of str){
@@ -22,10 +22,10 @@ function reverse(str){
     return reverse;
 }
 
-console.log(reverse("tharindu"))
+console.log(reverse2("tharindu"))
 
 //inbuilt methods to reverse a string
-function reverse(str){
+function reverse3(str){
     const strToArray = str.split("");
 
     strToArray.reverse()
@@ -33,5 +33,5 @@ function reverse(str){
     return strToArray.join('')
 }
 
-console.log(reverse("i love you"))
+console.log(reverse3("i love you"))
 
